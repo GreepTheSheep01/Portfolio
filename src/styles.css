@@ -3,7 +3,6 @@ body {
   background-color: #c3a99e;
 }
 .link {
-  display: block;
   margin-left: 40px;
   margin-bottom: 30px;
   font-size: 20px;
@@ -26,7 +25,7 @@ p {
   color: white;
 }
 
-#coffee {
+#graystars {
   width: 1000px;
   padding: 20px;
 }
