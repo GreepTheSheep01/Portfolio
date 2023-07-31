@@ -1,7 +1,7 @@
 body {
   font-family: 'Varela Round', sans-serif;
   background: url("../Images/WindowsBG.png");
-  background-size: 1350px 700px;
+  background-size: 100%;
   background-repeat: no-repeat
 }
 .link {
@@ -35,7 +35,28 @@ p {
   background-repeat: no-repeat;
   width:1000px;
   height:562.183px;
-  min-height:562.183px
+  min-height:562.183px;
+  margin: 0 auto;
+  padding-top: calc((100% - 562.183px) / 3);
+}
+
+.invisibleLink{
+  display: block;
+  width: 134px;
+  height: 30px;
+  cursor:pointer;
+}
+
+.artLink{
+  position: relative;
+  top: -126px;
+  left: 197px;
+}
+
+@keyframes fadein{
+  0%{opacity:0;}
+  33%{opacity:0;}
+  100%{opacity:1;}
 }
 
   @keyframes expand {
@@ -61,5 +82,10 @@ p {
 .popup {
   animation-name: expand;
   animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+#name{
+  animation:fadein;
+  animation-duration: 3s;
   animation-iteration-count: 1;
 }
