@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
@@ -8,49 +9,43 @@
   </head>
   
   <body>
+
     <div id="app">
 
-      <!--a class="link" href="home.html">
-        Home
-      </a>
-
-      <a class="link" href="Portfolios/programportfolio.html">
-        Programming Portfolio
-      </a>
-
-      <a class="link" href="Portfolios/artportfolio.html">
-        Artist Portfolio
-      </a>
-
-      <a class="link" href="https://www.linkedin.com/in/gray-mwangi-621368284/">
-        LinkedIn
-      </a>
-
-      <h2 id="name">
-        Student Programmer, Intern at Flow Enterprises, Artist, Student at Madison College
-      </h2>
-
-      <p/-->
-
         <div class="LightHome popup">
-          <a class="invisibleLink artLink" onclick="loadArtTab()"></a>
-          <h1 id="name">
-            Hey, I'm Gray!
-          </h1> 
 
+          <a class="invisibleLink artLink" onclick="loadArtTab()"></a>
+
+          <h1 class="fadeIn homeText">
+            Hey, I'm Gray!<br>
+          </h1>
+
+          <h2 class="fadeIn homeText">
+            Student Programmer, Intern at Flow Enterprises,<br>
+            Artist, Student at Madison College
+          </h2>
+
+          <a class="link fadeIn" id="LinkedIn" href="https://www.linkedin.com/in/gray-mwangi-621368284/">
+            LinkedIn
+          </a>
+
+          <a class="link fadeIn" id="Email" href="https://mail.google.com/mail/?view=cm&fs=1&to=grace.mwangi0901@gmail.com">
+            Email
+          </a>
+
+          <img id="grayStars" class="fadeIn" src="Images/GrayStarsNBG.png"/>
+
+          
         </div>
-        <!--img
-        src="Images/LightTabs/LightHome.png"
-        width="1000"
-        /-->
-      </p>
     </div>
 
     <script src="src/index.js"></script>
+
     <script>
       function loadArtTab(){
         alert('clicked on art');//modify this to load contents in the window body
       }
     </script>
+    
   </body>
 </html>
