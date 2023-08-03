@@ -22,6 +22,7 @@ p {
 }
 
 .link {
+  display:inline-block;
   margin-left: 40px;
   margin-top: 100px;
   font-size: 20px;
@@ -34,7 +35,7 @@ p {
   margin-top: 20px;
 }
 
-.LightHome{
+.lightHome{
   background:url('../Images/LightTabs/LightHome.png');
   background-size: 1000px 562.183px;
   background-position:center center;
@@ -97,13 +98,22 @@ p {
 }
 #grayStars{
   position:relative;
-  left:400px;
+  left:350px;
   top:-215px;
   width:400px;
   height:400px;
 }
 
-#LinkedIn{
+.links{
+display:inline;
+position:relative;
+top:-300px
+}
+
+#pageMode{
   position:relative;
-  top:-300px;
+  top:-633px;
+  left:300px;
+  width:30px;
+  height:30px;
 }
