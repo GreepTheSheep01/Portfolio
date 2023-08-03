@@ -2,7 +2,9 @@ body {
   font-family: 'Varela Round', sans-serif;
   background: url("../Images/WindowsBG.png");
   background-size: 100%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  max-height:100vw;
+  overflow:hidden;
 }
 
 h1{
@@ -43,6 +45,10 @@ p {
   height:562.183px;
   min-height:562.183px;
   margin: 0 auto;
+  /* padding-top: calc((100% - 562.183px) / 3); */
+}
+
+.LightHomeInner{
   padding-top: calc((100% - 562.183px) / 3);
 }
 
@@ -55,7 +61,7 @@ p {
 
 .artLink{
   position: relative;
-  top: -126px;
+  top: -92px;
   left: 197px;
 }
 
@@ -96,14 +102,10 @@ p {
   animation-iteration-count: 1;
 }
 #grayStars{
+  float:right;
   position:relative;
-  left:400px;
-  top:-215px;
+  top: -265px;
+  right: 20px;
   width:400px;
   height:400px;
-}
-
-#LinkedIn{
-  position:relative;
-  top:-300px;
 }
